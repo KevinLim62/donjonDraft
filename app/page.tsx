@@ -19,7 +19,7 @@ const IntroContent = {
 const storyContent = {
   title: 'Background Story',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  storySrc: `${baseURL}/Placeholder.png`,
+  storySrc: "/donjonDraft/Placeholder.png",
 }
 
 const GameplayContent = {
@@ -28,8 +28,8 @@ const GameplayContent = {
   carousel: [
     "https://drive.google.com/uc?export=view&id=1qCPR5lL8_GdODrZgYm14k6aUdFDqME80",
     "https://drive.google.com/uc?export=view&id=1Ab6Gj3-TEUwsZ6qO1R98um2VMCh0-QgN",
-    `${baseURL}Placeholder.png`,
-    `${baseURL}Placeholder.png`,
+    "/donjonDraft/Placeholder.png",
+    "/donjonDraft/Placeholder.png",
   ]
 }
 
@@ -38,17 +38,17 @@ const ConceptContent = {
   Creatures: {
     header: 'Creatures',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    contentSrc: `${baseURL}Placeholder.png`,
+    contentSrc: "/donjonDraft/Placeholder.png",
   },
   Characters: {
     header: 'Characters',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    contentSrc: `${baseURL}Placeholder.png`,
+    contentSrc: "/donjonDraft/Placeholder.png",
     carousel: [
-      `${baseURL}Placeholder.png`,
-      `${baseURL}Placeholder.png`,
-      `${baseURL}Placeholder.png`,
-      `${baseURL}Placeholder.png`,
+      "/donjonDraft/Placeholder.png",
+      "/donjonDraft/Placeholder.png",
+      "/donjonDraft/Placeholder.png",
+      "/donjonDraft/Placeholder.png",
     ],
   }
 }
