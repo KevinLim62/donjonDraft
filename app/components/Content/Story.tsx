@@ -33,7 +33,7 @@ const Story:React.FC<StoryProps> = ({
             <div className="w-full mx-16 my-10 relative">
               <Image 
                 alt="story"
-                src="/Placeholder.png"
+                src={storySrc}
                 fill
                 className="bg-gray-400"
               />
