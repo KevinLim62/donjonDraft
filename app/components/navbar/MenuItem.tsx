@@ -25,7 +25,7 @@ const MenuItem:React.FC<MenuItemProps> = ({
     console.log(searchParams)
     if(searchParams != title)
     {
-        router.push(`${pathname}?section=${lodash.toLower(title)}`);
+        router.push(`?section=${lodash.toLower(title)}`);
     }
   },[router,searchParams,pathname,title])
   
