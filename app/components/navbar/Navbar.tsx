@@ -3,6 +3,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import lodash from "lodash";
 import MenuItem from "./MenuItem";
+import { useCallback } from "react";
 import Link from "next/link";
 
 const MenuData = [
@@ -44,11 +45,14 @@ const Navbar = () => {
 
   const router = useRouter();
   const searchParams = useSearchParams().get('section');
-
+  const LogoOnClick = useCallback(() => {
+      router.push('/');
+  },[router])
+    
   return (
     <div className="fixed w-full top-0 bg-slate-500 py-6 opacity-90 z-50">
         <div className="flex flex-row gap-12">
-            <Link href={`#1`} className="cursor-pointer" onClick={() => router.push('/')}>
+            <Link href={`#1`} className="cursor-pointer" onClick={LogOnClick}>
                 Logo
             </Link>
             {MenuData.map((item,index) => (
