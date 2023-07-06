@@ -48,9 +48,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full top-0 bg-slate-500 py-6 opacity-90 z-50">
         <div className="flex flex-row gap-12">
-            <Link href={`#1`} className="cursor-pointer" onClick={() => router.push('/')}>
+            <div className="cursor-pointer" onClick={() => router.push('/')}>
                 Logo
-            </Link>
+            </div>
             {MenuData.map((item,index) => (
             <MenuItem
             title={item.title}

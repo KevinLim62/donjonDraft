@@ -17,14 +17,16 @@ const Creatures:React.FC<CreaturesProps> = ({
         <div className="font-semibold text-yellow-500 text-[50px] text-center pt-10">
             {header}
         </div>
-        <div className="flex flex-col justify-center font-medium text-yellow-500 text-[17px] text-center mx-20 my-5 space-y-5 pb-32">
-            <div>
-              {content}
+        <div className="flex flex-col justify-center font-medium text-yellow-500 text-[17px] text-center mx-20 my-5 pb-32">
+            <div className="space-y-2 py-5">
+              <div>
+                {content}
+              </div>
+              <div>
+                {content}
+              </div>
             </div>
-            <div>
-              {content}
-            </div>
-            <div className="relative bg-white">
+            <div className="relative">
               <Image 
                   alt="content"
                   src={contentSrc}
@@ -34,13 +36,7 @@ const Creatures:React.FC<CreaturesProps> = ({
                   className="w-full"
                 />
             </div>
-            <div>
-              {content}
-            </div>
-            <div>
-              {content}
-            </div>
-            <div className="relative bg-white">
+            <div className="relative">
               <Image 
                   alt="content"
                   src={contentSrc}
@@ -49,6 +45,14 @@ const Creatures:React.FC<CreaturesProps> = ({
                   quality={100}
                   className="w-full"
                 />
+            </div>
+            <div className="space-y-2 py-5">
+              <div>
+                {content}
+              </div>
+              <div>
+                {content}
+              </div>
             </div>
         </div>
     </>
