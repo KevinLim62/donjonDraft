@@ -14,10 +14,10 @@ const Creatures:React.FC<CreaturesProps> = ({
 }) => {
   return (
     <>
-        <div className="font-semibold text-yellow-500 text-[50px] text-center pt-10">
+        <div className="font-semibold text-yellow-500 responsive-title text-center pt-5 sm:pt-10">
             {header}
         </div>
-        <div className="flex flex-col justify-center font-medium text-yellow-500 text-[17px] text-center mx-20 my-5 pb-32">
+        <div className="flex flex-col justify-center font-medium text-yellow-500 responsive-text text-center mx-2 sm:mx-10 my-5 pb-10 sm:pb-24">
             <div className="space-y-2 py-5">
               <div>
                 {content}

@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities {
-    .scroll-area {
-        @apply snap-center;
+    .content-box {
+        @apply mx-[10px] sm:mx-[50px] md:mx-[100px] lg:mx-[150px] xl:mx-[200px] 2xl:mx-[250px];
+    }
+
+    .container-box {
+        @apply pb-[20px] sm:pb-[40px] md:pb-[60px] lg:pb-[80px] xl:pb-[100px];
+    }
+
+    .responsive-title {
+        @apply text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl;
+    }
+
+    .responsive-text {
+        @apply text-[10px] leading-[15px] sm:text-xs lg:text-sm xl:text-base;
     }
 }
+

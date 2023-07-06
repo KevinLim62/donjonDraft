@@ -14,13 +14,13 @@ const Footer:React.FC<FooterProps> = ({
   footer,
 }) => {
   return (
-    <section className="bg-slate-800 w-full relative">
-      <div className="relative left-0 right-0 pt-8">
-      <div className="font-semibold text-yellow-500 text-[80px] text-center pb-5">
+    <section className="bg-slate-800 w-full relative container-box">
+      <div className="relative left-0 right-0 pt-8 content-box">
+      <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
           {title}
       </div>
       </div>
-      <div className="flex flex-row justify-center mx-[15%] space-x-20 text-yellow-500">
+      <div className="flex flex-row justify-center mx-2 sm:mx-10 space-x-5 sm:space-x-10">
         {socialMedia.map((item,index) => (
           <SocialMedia
             key={index}
@@ -29,7 +29,7 @@ const Footer:React.FC<FooterProps> = ({
           />
         ))}
       </div>
-      <div className="relative text-center text-yellow-500 py-16">
+      <div className="relative text-center text-yellow-500 responsive-text py-2 mt-0 sm:mt-5 sm:pt-10">
         {footer}
       </div>
     </section>

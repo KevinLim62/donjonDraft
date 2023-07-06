@@ -38,12 +38,12 @@ export default function Home() {
             Char_contSrc={ConceptContent.Characters.contentSrc}
             Char_slidesSrc={ConceptContent.Characters.carousel}
           />
-          <Development 
+          {/* <Development 
             title='Development'
           />
           <Rewards
             title='Rewards'
-          />
+          /> */}
           <Achievement 
             title={AchievementContent.title}
             content={AchievementContent.content}

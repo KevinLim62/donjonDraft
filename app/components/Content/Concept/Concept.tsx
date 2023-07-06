@@ -27,26 +27,27 @@ const Concept:React.FC<ConceptProps> = ({
 }) => {
   return (
 
-    <section id='5' className="bg-slate-800 w-full relative">
+    <section id='5' className="bg-slate-800 w-full relative container-box">
       <div className="relative left-0 right-0 pt-14">
-        <div className="font-semibold text-yellow-500 text-[80px] text-center pb-5">
+        <div className="font-semibold text-yellow-500 responsive-title text-center pb-5">
             {title}
         </div>
       </div>
-      <div className="mx-[200px] bg-gray-700">
-        <Creatures
-          header={Creatures_head}
-          content={Creatures_cont}
-          contentSrc={Creatures_contSrc}
-        />
-        <Characters
-          header={Char_head}
-          content={Char_cont}
-          contentSrc={Char_contSrc}
-          slidesSrc={Char_slidesSrc}
-        />
+      <div className="content-box bg-gray-700">
+        <div className="flex flex-col">
+          <Creatures
+            header={Creatures_head}
+            content={Creatures_cont}
+            contentSrc={Creatures_contSrc}
+          />
+          <Characters
+            header={Char_head}
+            content={Char_cont}
+            contentSrc={Char_contSrc}
+            slidesSrc={Char_slidesSrc}
+          />
+        </div>
       </div>
-      <div className="pb-32"></div>
     </section>
   )
 }

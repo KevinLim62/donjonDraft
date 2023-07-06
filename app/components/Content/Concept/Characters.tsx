@@ -17,10 +17,10 @@ const Characters:React.FC<CharactersProps> = ({
 }) => {
   return (
     <>
-      <div className="font-semibold text-yellow-500 text-[50px] text-center pt-5">
+      <div className="font-semibold text-yellow-500 responsive-title text-center pt-5 sm:pt-10">
           {header}
       </div>
-      <div className="justify-center font-medium text-yellow-500 text-[17px] text-center mx-12 my-5 pb-32">
+      <div className="justify-center font-medium text-yellow-500 responsive-text text-center mx-2 sm:mx-10 my-5 pb-10 sm:pb-24">
           <div className="space-y-2 py-5">
               <div>
                 {content}
@@ -30,7 +30,7 @@ const Characters:React.FC<CharactersProps> = ({
               </div>
           </div>
           <div className="flex flex-col justify-center relative pb-5">
-              <div className="w-[65%] mx-auto overflow-hidden">
+              <div className="w-full sm:w-[85%] mx-auto overflow-hidden">
                 <Carousel slidesSrc={slidesSrc}/>
               </div>
           </div>

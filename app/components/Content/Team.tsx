@@ -21,18 +21,18 @@ const Team:React.FC<TeamProps> = ({
   advisor,
 }) => {
   return (
-    <section id='9' className="bg-slate-100 w-full relative">
-      <div className="relative left-0 right-0 pt-14">
-        <div className="font-semibold text-yellow-500 text-[80px] text-center pb-5">
+    <section id='9' className="bg-slate-100 w-full relative container-box">
+      <div className="relative left-0 right-0 pt-14 content-box">
+        <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
             {title}
         </div>
       </div>
-      <div className="relative left-0 right-0 pt-14">
-        <div className="font-semibold text-yellow-500 text-[50px] text-center pb-5">
+      <div className="relative left-0 right-0 pt-10">
+        <div className="font-semibold text-yellow-500 responsive-title text-center pb-5">
             {core.title}
         </div>
       </div>
-      <div className="grid grid-rows-1 grid-flow-col justify-evenly mx-[20%] space-x-3">
+      <div className="grid grid-rows-1 grid-flow-col justify-evenly mx-[10%] sm:mx-[20%] space-x-3">
           {core.members.map((member,index) => (
               <Member
                 key={index}
@@ -45,12 +45,12 @@ const Team:React.FC<TeamProps> = ({
           ))}
       </div>
 
-      <div className="relative left-0 right-0 pt-14">
-        <div className="font-semibold text-yellow-500 text-[50px] text-center pb-5">
+      <div className="relative left-0 right-0 pt-10">
+        <div className="font-semibold text-yellow-500 responsive-title text-center pb-5">
             {advisor.title}
         </div>
       </div>
-      <div className="grid grid-rows-1 grid-flow-col justify-evenly mx-[20%] space-x-3">
+      <div className="grid grid-rows-1 grid-flow-col justify-evenly mx-[10%] sm:mx-[20%] space-x-3">
           {advisor.members.map((member,index) => (
               <Member
                 key={index}
@@ -62,7 +62,6 @@ const Team:React.FC<TeamProps> = ({
               />
           ))}
       </div>
-      <div className="pb-32"></div>
   </section>
 
   )

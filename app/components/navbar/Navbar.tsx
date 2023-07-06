@@ -23,14 +23,6 @@ const MenuData = [
         id:'5',
     },
     {
-        title: "DEVELOPMENT",
-        id:'6',
-    },
-    {
-        title: "REWARDS",
-        id:'7',
-    },
-    {
         title: "ACHIEVEMENT",
         id:'8',
     },
@@ -46,8 +38,8 @@ const Navbar = () => {
   const searchParams = useSearchParams().get('section');
 
   return (
-    <div className="fixed w-full top-0 bg-slate-500 py-6 opacity-90 z-50">
-        <div className="flex flex-row gap-12">
+    <div className="fixed w-full top-0 bg-slate-500 py-3 opacity-90 z-50 hidden min-[630px]:block">
+        <div className="flex flex-row gap-5 xl:gap-10">
             <div className="cursor-pointer" onClick={() => router.push('/')}>
                 Logo
             </div>

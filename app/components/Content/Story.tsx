@@ -13,35 +13,29 @@ const Story:React.FC<StoryProps> = ({
   storySrc,
 }) => {
   return (
-    <section id='3' className="bg-slate-800 w-full relative">
+    <section id='3' className="bg-slate-800 w-full relative container-box">
       <div className="relative left-0 right-0 pt-14">
-       <div className="font-semibold text-yellow-500 text-[80px] text-center pb-5">
+       <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
           {title}
        </div>
       </div>
-       <div className="mx-[250px] bg-gray-700">
-        <div className="flex flex-col">
-         <div className="flex flex-row justify-between">
-            <div className="w-full font-medium text-yellow-500 text-[17px] text-center ml-10 my-10 space-y-3">
-                <div>
-                  {content}
-                </div>
-                <div>
-                  {content}
-                </div>
+       <div className="content-box bg-gray-700">
+         <div className="flex flex-col sm:flex-row justify-between space-y-1 sm:space-x-3 sm:p-3">
+            <div className="flex flex-col w-full font-medium justify-center text-yellow-500 responsive-text text-center sm:mx-10 space-y-3">
+                  <div>
+                    {content}
+                  </div>
             </div>
-            <div className="w-full mx-16 my-10 relative">
+            <div className="w-full h-[30vh] relative px-[30px] md:px-[100px]">
               <Image 
                 alt="story"
                 src="/Placeholder.png"
                 fill
-                className="bg-gray-400"
+                className="rounded-sm sm:h-[100%] "
               />
             </div>
          </div>
-        </div>
        </div>
-       <div className="pb-32"></div>
     </section>
   )
 }
