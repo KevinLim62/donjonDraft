@@ -13,21 +13,21 @@ const Story:React.FC<StoryProps> = ({
   storySrc,
 }) => {
   return (
-    <section id='3' className="bg-slate-800 w-full relative container-box sm:h-[50vh] md:h-[70vh] lg:h-[90vh] xl:h-[100vh]">
+    <section id='3' className="bg-slate-800 w-full relative container-box sm:h-[50vh] md:h-[70vh] lg:h-[80vh] xl:h-[100vh]">
       <div className="relative left-0 right-0 pt-20">
         <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
             {title}
         </div>
       </div>
        <div className="flex flex-col items-center justify-center h-full pb-10">
-        <div className="content-box bg-gray-700 sm:h-[35vh] lg:h-[60vh] xl:h-[55vh]">
-          <div className="flex h-full flex-col items-center sm:flex-row justify-center space-y-1 sm:space-x-10 mx-5 md:mx-8 lg:mx-12 xl:mx-16 my-10 sm:my-0">
+        <div className="content-box bg-gray-700 sm:h-[40vh] lg:h-[55vh] xl:h-[65vh]">
+          <div className="flex h-full flex-col items-center sm:flex-row justify-center space-y-1 sm:space-x-10 mx-5 md:mx-8 lg:mx-16 xl:mx-24 my-10 sm:my-0">
               <div className="flex flex-col w-full font-medium justify-center text-yellow-500 responsive-text text-center space-y-3">
                     <div>
                       {content}
                     </div>
               </div>
-              <div className="w-[60%] sm:w-full h-[25vh] md:h-[35vh] lg:h-[45vh] 2xl:h-[50vh] relative px-[30px] md:px-[100px]">
+              <div className="w-[80%] sm:w-full h-[25vh] md:h-[35vh] lg:h-[45vh] 2xl:h-[50vh] relative px-[30px] md:px-[100px]">
                 <Image 
                   alt="story"
                   src={storySrc}

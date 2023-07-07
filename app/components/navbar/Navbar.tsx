@@ -4,6 +4,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { AiOutlineMenuUnfold , AiOutlineMenuFold } from "react-icons/ai";
 import lodash from "lodash";
 import MenuItem from "./MenuItem";
+import { useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";

@@ -5,7 +5,7 @@
 
 @layer utilities {
     .content-box {
-        @apply min-[390px]:mx-[10px] min-[425px]:mx-[30px] md:mx-[50px] lg:mx-[65px] xl:mx-[80px] 2xl:mx-[100px];
+        @apply min-[390px]:mx-[10px] min-[425px]:mx-[30px] md:mx-[60px] lg:mx-[65px] xl:mx-[80px] 2xl:mx-[100px];
     }
 
     .container-box {

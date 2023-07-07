@@ -14,15 +14,15 @@ const Intro:React.FC<IntroProps> = ({
     bgSrc,
 }) => {
   return (
-  <section id='2' className={`bg-cover bg-center bg-opacity-50 w-full relative container-box sm:h-[50vh] md:h-[70vh] lg:h-[100vh]`} style={{ backgroundImage: `url(${bgSrc})` }}>
-    <div className="relative left-0 right-0  pt-20">
+  <section id='2' className={`bg-cover bg-center bg-opacity-50 w-full relative container-box sm:h-[50vh] md:h-[70vh] lg:h-[80vh]`} style={{ backgroundImage: `url(${bgSrc})` }}>
+    <div className="relative left-0 right-0 pt-20">
      <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
         {title}
      </div>
     </div>
-      <div className="flex flex-col items-center justify-center h-full pb-10">
-        <div className="content-box bg-gray-700 sm:h-[35vh] lg:h-[70vh] xl:h-[55vh]">
-          <div className="flex flex-col items-center justify-center h-full  mx-5 md:mx-8 lg:mx-16 xl:mx-24 my-5">
+      <div className="flex flex-col items-center justify-center h-full md:h-[40vh] pb-10">
+        <div className="content-box bg-gray-700 h-full">
+          <div className="flex flex-col items-center justify-center h-full mx-5 md:mx-8 lg:mx-16 xl:mx-24">
               <div className="font-medium text-yellow-500 responsive-text text-center space-y-5">
                   <div>
                     {content}
