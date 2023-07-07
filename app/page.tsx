@@ -12,11 +12,12 @@ import { IntroContent, storyContent, GameplayContent, ConceptContent, Achievemen
 
 export default function Home() {
   return (
-      <div className='min-w-[390px] space-y-1 snap-y snap-mandatory'>
+      <div className='min-w-[390px] snap-y snap-mandatory'>
           <Hero/>
           <Intro
             title={IntroContent.title}
             content={IntroContent.content}
+            bgSrc={IntroContent.bgSrc}
           />
           <Story
             title={storyContent.title}

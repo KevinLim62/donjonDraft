@@ -4,7 +4,7 @@ import Image from "next/image";
 interface CreaturesProps {
     header: string;
     content: string;
-    contentSrc: string;
+    contentSrc: {imgSrc:string}[];
   }
 
 const Creatures:React.FC<CreaturesProps> = ({
@@ -26,26 +26,18 @@ const Creatures:React.FC<CreaturesProps> = ({
                 {content}
               </div>
             </div>
-            <div className="relative">
+            {contentSrc.map((img,index) => (
+              <div className="relative" key={index}>
               <Image 
                   alt="content"
-                  src={contentSrc}
+                  src={img.imgSrc}
                   height={200}
                   width={200}
                   quality={100}
                   className="w-full"
                 />
             </div>
-            <div className="relative">
-              <Image 
-                  alt="content"
-                  src={contentSrc}
-                  height={200}
-                  width={200}
-                  quality={100}
-                  className="w-full"
-                />
-            </div>
+            ))}
             <div className="space-y-2 py-5">
               <div>
                 {content}

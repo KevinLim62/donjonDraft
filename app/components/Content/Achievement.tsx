@@ -15,7 +15,7 @@ const Achievement:React.FC<AchievementProps> = ({
 }) => {
   return (
     <section id='8' className="bg-slate-800 w-full relative container-box">
-    <div className="relative left-0 right-0 pt-14">
+    <div className="relative left-0 right-0 pt-20">
      <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
         {title}
      </div>
@@ -23,10 +23,10 @@ const Achievement:React.FC<AchievementProps> = ({
      <div className="content-box bg-gray-700">
       <div className="flex flex-col">
        <div className="flex flex-row justify-between space-y-1 sm:p-3">
-          <div className="w-full md:h-[40vh] relative overflow-clip px-[30px] md:px-[100px]">
+          <div className="w-full md:h-[40vh] lg:h-[60vh] relative overflow-clip px-[30px] md:px-[100px]">
             <Image 
               alt="story"
-              src="/Placeholder.png"
+              src={contentSrc}
               fill
               className=""
             />

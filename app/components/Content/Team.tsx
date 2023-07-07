@@ -22,7 +22,7 @@ const Team:React.FC<TeamProps> = ({
 }) => {
   return (
     <section id='9' className="bg-slate-100 w-full relative container-box">
-      <div className="relative left-0 right-0 pt-14 content-box">
+      <div className="relative left-0 right-0 pt-20 content-box">
         <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
             {title}
         </div>

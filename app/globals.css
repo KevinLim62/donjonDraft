@@ -9,7 +9,7 @@
     }
 
     .container-box {
-        @apply pb-[20px] sm:pb-[40px] md:pb-[60px] lg:pb-[80px] xl:pb-[100px];
+        @apply pb-[30px] sm:pb-[60px] md:pb-[60px] lg:pb-[80px] xl:pb-[100px];
     }
 
     .responsive-title {

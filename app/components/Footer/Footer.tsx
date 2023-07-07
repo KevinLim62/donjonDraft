@@ -20,7 +20,7 @@ const Footer:React.FC<FooterProps> = ({
           {title}
       </div>
       </div>
-      <div className="flex flex-row justify-center mx-2 sm:mx-10 space-x-5 sm:space-x-10">
+      <div className="flex flex-row justify-center mx-2 sm:mx-10 lg:mx-16 xl:mx-24 space-x-5 sm:space-x-10">
         {socialMedia.map((item,index) => (
           <SocialMedia
             key={index}

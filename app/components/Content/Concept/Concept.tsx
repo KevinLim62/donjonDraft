@@ -8,7 +8,7 @@ type ConceptProps = {
   title: string;
   Creatures_head: string;
   Creatures_cont: string;
-  Creatures_contSrc: string;
+  Creatures_contSrc: {imgSrc:string}[];
   Char_head: string;
   Char_cont: string;
   Char_contSrc: string;
@@ -28,24 +28,26 @@ const Concept:React.FC<ConceptProps> = ({
   return (
 
     <section id='5' className="bg-slate-800 w-full relative container-box">
-      <div className="relative left-0 right-0 pt-14">
+      <div className="relative left-0 right-0 pt-20">
         <div className="font-semibold text-yellow-500 responsive-title text-center pb-5">
             {title}
         </div>
       </div>
-      <div className="content-box bg-gray-700">
-        <div className="flex flex-col">
-          <Creatures
-            header={Creatures_head}
-            content={Creatures_cont}
-            contentSrc={Creatures_contSrc}
-          />
-          <Characters
-            header={Char_head}
-            content={Char_cont}
-            contentSrc={Char_contSrc}
-            slidesSrc={Char_slidesSrc}
-          />
+      <div className="flex flex-col space-y-10">
+        <div className="content-box bg-gray-700">
+            <Creatures
+              header={Creatures_head}
+              content={Creatures_cont}
+              contentSrc={Creatures_contSrc}
+            />
+        </div>
+        <div className="content-box bg-gray-700">
+        <Characters
+              header={Char_head}
+              content={Char_cont}
+              contentSrc={Char_contSrc}
+              slidesSrc={Char_slidesSrc}
+            />
         </div>
       </div>
     </section>
