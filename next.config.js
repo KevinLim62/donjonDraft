@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    experimental: {
+        images: {
+          allowFutureImage: true,
+        },
+      },
     images: {
         domains: ['drive.google.com']
     },
