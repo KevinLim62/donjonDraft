@@ -64,7 +64,7 @@ const Navbar = () => {
                 title={item.title}
                 id={item.id}
                 selected={searchParams === lodash.toLower(item.title)}
-                key={index}
+                key={item.id}
                 />
             </div>
             ))} 
@@ -79,7 +79,7 @@ const Navbar = () => {
                     title={item.title}
                     id={item.id}
                     selected={searchParams === lodash.toLower(item.title)}
-                    key={index}
+                    key={item.id}
                     />
                     ))}
             </div>

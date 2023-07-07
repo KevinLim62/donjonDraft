@@ -27,7 +27,7 @@ const MenuItem:React.FC<MenuItemProps> = ({
     {
         router.push(`?section=${lodash.toLower(title)}`);
     }
-  },[router,searchParams,pathname,title])
+  },[router,searchParams,title])
   
   return (
     <div className={`
