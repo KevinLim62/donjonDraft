@@ -59,12 +59,11 @@ const Navbar = () => {
                 />
             </div>
             {MenuData.map((item,index) => (
-            <div className="hidden min-[630px]:block">
+            <div className="hidden min-[630px]:block" key={index}>
                 <MenuItem
                 title={item.title}
                 id={item.id}
                 selected={searchParams === lodash.toLower(item.title)}
-                key={item.id}
                 />
             </div>
             ))} 
@@ -79,7 +78,7 @@ const Navbar = () => {
                     title={item.title}
                     id={item.id}
                     selected={searchParams === lodash.toLower(item.title)}
-                    key={item.id}
+                    key={index}
                     />
                     ))}
             </div>
