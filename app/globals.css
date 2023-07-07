@@ -5,11 +5,11 @@
 
 @layer utilities {
     .content-box {
-        @apply mx-[10px] sm:mx-[50px] md:mx-[100px] lg:mx-[150px] xl:mx-[200px] 2xl:mx-[250px];
+        @apply min-[390px]:mx-[10px] min-[425px]:mx-[30px] md:mx-[50px] lg:mx-[65px] xl:mx-[80px] 2xl:mx-[100px];
     }
 
     .container-box {
-        @apply pb-[30px] sm:pb-[60px] md:pb-[60px] lg:pb-[80px] xl:pb-[100px];
+        @apply pb-[30px] sm:pb-[100px] md:pb-[150px] lg:pb-[85px] xl:pb-[120px];
     }
 
     .responsive-title {

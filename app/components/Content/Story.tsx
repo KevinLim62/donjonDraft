@@ -14,7 +14,7 @@ const Story:React.FC<StoryProps> = ({
 }) => {
   return (
     <section id='3' className="bg-slate-800 w-full relative container-box sm:h-[50vh] md:h-[70vh] lg:h-[90vh] xl:h-[100vh]">
-      <div className="relative left-0 right-0 top-[15%] pt-20">
+      <div className="relative left-0 right-0 pt-20">
         <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
             {title}
         </div>
@@ -37,20 +37,20 @@ const Story:React.FC<StoryProps> = ({
               </div>
           </div>
         </div>
-        <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[120px] lg:h-[130px] xl:w-[160px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] left-[10%] top-[13%]">
+        {/* <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[180px] lg:h-[180px] xl:w-[170px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] left-[10%] top-[5%]">
         <Image
           alt="creatures"
           src="https://drive.google.com/uc?export=view&id=19tBCxw9G2Ec1q2CBW89ICFPQdoTlFl2T"
           fill
         />
         </div>
-        <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[120px] lg:h-[130px] xl:w-[160px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] right-[10%] bottom-[0%]">
+        <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[180px] lg:h-[180px] xl:w-[170px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] right-[5%] bottom-[0%]">
           <Image
             alt="creatures"
             src="https://drive.google.com/uc?export=view&id=1VOY4rSeF2TNun_Wp7CI3zazGXhYZW3NJ"
             fill
           />
-        </div>
+        </div> */}
        </div>
     </section>
   )

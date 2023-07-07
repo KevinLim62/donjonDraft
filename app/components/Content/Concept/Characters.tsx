@@ -40,7 +40,7 @@ const Characters:React.FC<CharactersProps> = ({
               />
           </div>
           <div className="flex flex-col justify-center relative pb-5">
-              <div className="w-full sm:w-[85%] lg:w-[62%] mx-auto overflow-hidden">
+              <div className="w-full sm:w-[85%] lg:w-[75%] xl:w-[65%] mx-auto overflow-hidden">
                 <Carousel slidesSrc={slidesSrc}/>
               </div>
           </div>

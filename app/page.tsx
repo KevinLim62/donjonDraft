@@ -31,6 +31,7 @@ export default function Home() {
           />
           <Concept
             title={ConceptContent.title}
+            bgSrc={ConceptContent.bgSrc}
             Creatures_head={ConceptContent.Creatures.header}
             Creatures_cont={ConceptContent.Creatures.content} 
             Creatures_contSrc={ConceptContent.Creatures.contentSrc}

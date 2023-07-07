@@ -6,6 +6,7 @@ import Characters from "./Characters";
 
 type ConceptProps = {
   title: string;
+  bgSrc: string;
   Creatures_head: string;
   Creatures_cont: string;
   Creatures_contSrc: {imgSrc:string}[];
@@ -17,6 +18,7 @@ type ConceptProps = {
 
 const Concept:React.FC<ConceptProps> = ({
   title,
+  bgSrc,
   Creatures_head,
   Creatures_cont,
   Creatures_contSrc,
@@ -27,7 +29,7 @@ const Concept:React.FC<ConceptProps> = ({
 }) => {
   return (
 
-    <section id='5' className="bg-slate-800 w-full relative container-box">
+    <section id='5' className={`bg-repeat-y bg-center bg-opacity-50 w-full relative container-box`} style={{ backgroundImage: `url(${bgSrc})` }}>
       <div className="relative left-0 right-0 pt-20">
         <div className="font-semibold text-yellow-500 responsive-title text-center pb-5">
             {title}
