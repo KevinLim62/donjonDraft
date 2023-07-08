@@ -20,19 +20,18 @@ const Achievement:React.FC<AchievementProps> = ({
         {title}
      </div>
     </div>
-     <div className="mx-[50px] sm:mx-[25px] md:mx-[10px] lg:mx-0 bg-gray-700">
+     <div className="bg-gray-700">
       <div className="flex flex-col">
-       <div className="flex flex-row justify-between space-y-1 sm:p-3 lg:p-0">
-          <div className="w-full md:h-[40vh] lg:h-[60vh] relative overflow-clip px-[30px] md:px-[100px]">
+       <div className="flex flex-row justify-between space-y-1 h-[30vh] md:h-[40vh] lg:h-[60vh] sm:p-3 lg:p-0">
+          <div className="w-full relative overflow-clip px-[30px] md:px-[100px]">
             <Image 
               alt="story"
               src={contentSrc}
               fill
-              className=""
             />
             <div className="absolute w-0 h-0 -right-1 bottom-0
-              border-l-[60px] md:border-l-[100px] min-[1000px]:border-l-[150px] border-l-transparent
-              border-b-[250px] md:border-b-[605px] min-[1000px]:border-b-[1000px] border-b-gray-700">
+              border-l-[50px] md:border-l-[100px] min-[1000px]:border-l-[150px] border-l-transparent
+              border-b-[360px] md:border-b-[605px] min-[1000px]:border-b-[1000px] border-b-gray-700">
             </div>
           </div>
 

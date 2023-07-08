@@ -20,8 +20,8 @@ const Intro:React.FC<IntroProps> = ({
         {title}
      </div>
     </div>
-      <div className="flex flex-col items-center justify-center h-full md:h-[40vh] pb-10">
-        <div className="content-box bg-gray-700 h-full">
+      <div className="flex flex-col items-center justify-center h-full md:h-[40vh] lg:h-[58vh] xl:h-[60vh] pb-10">
+        <div className="content-box bg-gray-700 h-full py-10 sm:py-0">
           <div className="flex flex-col items-center justify-center h-full mx-5 md:mx-8 lg:mx-16 xl:mx-24">
               <div className="font-medium text-yellow-500 responsive-text text-center space-y-5">
                   <div>

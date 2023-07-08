@@ -19,8 +19,8 @@ const Story:React.FC<StoryProps> = ({
             {title}
         </div>
       </div>
-       <div className="flex flex-col items-center justify-center h-full pb-10">
-        <div className="content-box bg-gray-700 sm:h-[40vh] lg:h-[55vh] xl:h-[65vh]">
+       <div className="flex flex-col items-center justify-center h-full md:h-[40vh] lg:h-[60vh] xl:h-[80vh] pb-10">
+        <div className="content-box bg-gray-700 h-full">
           <div className="flex h-full flex-col items-center sm:flex-row justify-center space-y-1 sm:space-x-10 mx-5 md:mx-8 lg:mx-16 xl:mx-24 my-10 sm:my-0">
               <div className="flex flex-col w-full font-medium justify-center text-yellow-500 responsive-text text-center space-y-3">
                     <div>

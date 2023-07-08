@@ -22,7 +22,7 @@ const Gameplay:React.FC<GameplayProps> = ({
      </div>
     </div>
     <div className="flex flex-col justify-center relative content-box">
-        <div className="w-full sm:w-[85%] lg:w-[63%] mx-auto overflow-hidden">
+        <div className="w-full sm:w-[85%] lg:w-[53%] mx-auto overflow-hidden">
           <Carousel slidesSrc={slidesSrc}/>
         </div>
     </div>
