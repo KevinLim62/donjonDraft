@@ -21,9 +21,9 @@ export const GameplayContent = {
   title: 'Gameplay',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   carousel: [
-    "https://drive.google.com/uc?export=view&id=1qCPR5lL8_GdODrZgYm14k6aUdFDqME80",
-    "https://drive.google.com/uc?export=view&id=1Ab6Gj3-TEUwsZ6qO1R98um2VMCh0-QgN",
-    "https://drive.google.com/uc?export=view&id=1lov3jClWWOtbIuKY0gU1PV2cnGcLqxDs",
+    `${baseURL}Gameplay/carousel_1.gif`,
+    `${baseURL}Gameplay/carousel_2.gif`,
+    `${baseURL}Gameplay/carousel_3.png`,
   ]
 }
 
