@@ -31,8 +31,8 @@ const Team:React.FC<TeamProps> = ({
         <div className="font-semibold text-yellow-500 responsive-title text-center pb-5">
             {core.title}
         </div>
-      </div>
-      <div className="grid grid-rows-1 grid-flow-col justify-evenly mx-[10%] sm:mx-[20%] space-x-3">
+      </div> 
+      <div className="grid grid-rows-1 grid-flow-col justify-evenly mx-[5%] sm:mx-[10%] lg:mx-[15%] space-x-3">
           {core.members.map((member,index) => (
               <Member
                 key={index}

@@ -37,7 +37,7 @@ const Story:React.FC<StoryProps> = ({
               </div>
           </div>
         </div>
-        {/* <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[180px] lg:h-[180px] xl:w-[170px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] left-[10%] top-[5%]">
+        <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[180px] lg:h-[180px] xl:w-[170px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] left-[10%] top-[5%]">
         <Image
           alt="creatures"
           src="https://drive.google.com/uc?export=view&id=19tBCxw9G2Ec1q2CBW89ICFPQdoTlFl2T"
@@ -50,7 +50,7 @@ const Story:React.FC<StoryProps> = ({
             src="https://drive.google.com/uc?export=view&id=1VOY4rSeF2TNun_Wp7CI3zazGXhYZW3NJ"
             fill
           />
-        </div> */}
+        </div>
        </div>
     </section>
   )

@@ -19,7 +19,7 @@ const Member:React.FC<MemberProps> = ({
   return (
     <>
     <div className="flex flex-col items-center space-y-2 responsive-text">
-        <div className="w-[30px] h-[30px] sm:w-[60px] sm:h-[60px] rounded-full bg-transparent relative overflow-hidden">
+        <div className="w-[30px] h-[30px] sm:w-[60px] sm:h-[60px] lg:w-[90px] lg:h-[90px] rounded-full bg-transparent relative overflow-hidden">
             <Image
             alt="icon"
             src={iconSrc}
@@ -32,7 +32,7 @@ const Member:React.FC<MemberProps> = ({
         <div>
             {position}
         </div>
-        <div className='text-left'>
+        <div className='text-center'>
             <div>
                 {title}
             </div>
