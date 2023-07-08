@@ -14,7 +14,7 @@ const Intro:React.FC<IntroProps> = ({
     bgSrc,
 }) => {
   return (
-  <section id='2' className="w-full relative container-box h-full sm:h-[50vh] md:h-[55vh] lg:h-[70vh] xl:h-full">
+  <section id='2' className="w-full relative container-box h-full sm:h-[50vh] md:h-[55vh] lg:h-[85vh] xl:h-[100vh]">
       <Image
         alt="heroLogo"
         src={bgSrc}

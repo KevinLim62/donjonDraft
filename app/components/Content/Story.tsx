@@ -13,7 +13,7 @@ const Story:React.FC<StoryProps> = ({
   storySrc,
 }) => {
   return (
-    <section id='3' className="bg-slate-800 w-full relative container-box h-full sm:h-[50vh] md:h-[55vh] lg:h-[70vh] xl:h-full">
+    <section id='3' className="bg-slate-800 w-full relative container-box h-full sm:h-[50vh] md:h-[55vh] lg:h-[80vh] xl:h-[100vh]">
       <div className="relative left-0 right-0 pt-20">
         <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
             {title}
@@ -37,7 +37,7 @@ const Story:React.FC<StoryProps> = ({
               </div>
           </div>
         </div>
-        <div className="absolute w-[75px] h-[70px] sm:w-[95px] sm:h-[90px] lg:w-[185px] lg:h-[180px] xl:w-[200px] xl:h-[200px] 2xl:w-[220px] 2xl:h-[230px] left-[10%] top-[10%] xl:top-0">
+        <div className="absolute w-[75px] h-[70px] sm:w-[95px] sm:h-[90px] lg:w-[185px] lg:h-[180px] xl:w-[200px] xl:h-[200px] 2xl:w-[220px] 2xl:h-[230px] left-[10%] top-[10%] lg:top-[0%]">
         <Image
           alt="creatures"
           src="https://drive.google.com/uc?export=view&id=19tBCxw9G2Ec1q2CBW89ICFPQdoTlFl2T"
