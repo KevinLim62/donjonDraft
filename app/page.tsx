@@ -8,12 +8,15 @@ import Rewards from './components/Content/Rewards'
 import Achievement from './components/Content/Achievement'
 import Team from './components/Content/Team'
 import Intro from './components/Content/Intro'
-import { IntroContent, storyContent, GameplayContent, ConceptContent, AchievementContent, TheTeamContent } from './actions/getData'
+import { IntroContent, storyContent, GameplayContent, ConceptContent, AchievementContent, TheTeamContent, HeroContent } from './actions/getData'
 
 export default function Home() {
   return (
       <div className='min-w-[390px] snap-y snap-mandatory'>
-          <Hero/>
+          <Hero
+            bgSrc={HeroContent.bgSrc}
+            LogoSrc={HeroContent.logoSrc}
+          />
           <Intro
             title={IntroContent.title}
             content={IntroContent.content}
