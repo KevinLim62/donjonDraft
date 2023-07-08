@@ -3,13 +3,11 @@ import Image from "next/image";
 
 interface CreaturesProps {
     header: string;
-    content: string;
-    contentSrc: {imgSrc:string}[];
+    contentSrc: {imgSrc:string; content:string;}[];
   }
 
 const Creatures:React.FC<CreaturesProps> = ({
     header,
-    content,
     contentSrc,
 }) => {
   return (
@@ -18,34 +16,21 @@ const Creatures:React.FC<CreaturesProps> = ({
             {header}
         </div>
         <div className="flex flex-col justify-center font-medium text-yellow-500 responsive-text text-center mx-2 sm:mx-10 my-5 pb-10 sm:pb-24">
-            <div className="space-y-2 py-5">
-              <div>
-                {content}
-              </div>
-              <div>
-                {content}
-              </div>
-            </div>
-            {contentSrc.map((img,index) => (
+            {contentSrc.map((item,index) => (
               <div className="relative" key={index}>
-              <Image 
-                  alt="content"
-                  src={img.imgSrc}
-                  height={200}
-                  width={200}
-                  quality={100}
-                  className="w-full"
-                />
+                <Image 
+                    alt="content"
+                    src={item.imgSrc}
+                    height={200}
+                    width={200}
+                    quality={100}
+                    className="w-full"
+                  />
+                <div className="space-y-2 py-5">
+                  {item.content}
+                </div>
             </div>
             ))}
-            <div className="space-y-2 py-5">
-              <div>
-                {content}
-              </div>
-              <div>
-                {content}
-              </div>
-            </div>
         </div>
     </>
   )

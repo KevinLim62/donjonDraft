@@ -14,7 +14,7 @@ export const IntroContent = {
 export const storyContent = {
   title: 'Background Story',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  storySrc: "https://drive.google.com/uc?export=view&id=1tdAlKmnFMPegQV7jDkZwwuorL13M_fUh",
+  storySrc: `${baseURL}Story/storySrc.jpg`,
 }
 
 export const GameplayContent = {
@@ -29,39 +29,43 @@ export const GameplayContent = {
 
 export const ConceptContent = {
   title: 'Concept',
-  bgSrc: "https://drive.google.com/uc?export=view&id=1JNDMTfUMwvzLRctxmiIEa14q2YlO9M4S",
+  bgSrc: `${baseURL}Concept/bgSrc.jpg`,
   Creatures: {
     header: 'Creatures',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     contentSrc: [
       {
-        imgSrc:"https://drive.google.com/uc?export=view&id=12rp3TP-MobacWSSFwuk6GbDnwN4yDXuD"
+        imgSrc:`${baseURL}Concept/Creatures/creatures_1.jpg`,
+        content:'',
       },
       {
-        imgSrc:"https://drive.google.com/uc?export=view&id=1gXB40Iiuc3ZSppAukJR-eU1ZPwoG9nUj"
+        imgSrc:`${baseURL}Concept/Creatures/creatures_2.png`,
+        content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       },
       {
-        imgSrc:"https://drive.google.com/uc?export=view&id=1d7ScYbB93O0IIhjnXVNf9bDa3CEDsJa3"
+        imgSrc:`${baseURL}Concept/Creatures/creatures_3.jpg`,
+        content:'',
       },
       {
-        imgSrc:"https://drive.google.com/uc?export=view&id=16YHxt3GK6JPn1OxHGwmo94FeGFIYYFNx"
+        imgSrc:`${baseURL}Concept/Creatures/creatures_4.jpg`,
+        content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       },
       {
-        imgSrc:"https://drive.google.com/uc?export=view&id=1_eDcxuB1W3TKLn1FWE8fu82_O0tdAa4-"
+        imgSrc:`${baseURL}Concept/Creatures/creatures_5.jpg`,
+        content:'',
       },
     ]
   },
   Characters: {
     header: 'Characters',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    contentSrc: "https://drive.google.com/uc?export=view&id=1V94bkj9pppjfuBqLY0nW2zQrhaz59yYK",
+    contentSrc: `${baseURL}Characters/char_all.jpg`,
     carousel: [
-      "https://drive.google.com/uc?export=view&id=1geGYEgOGpSOuVjBQd-9J9lUsuygiIozP",
-      "https://drive.google.com/uc?export=view&id=1ESuN3_R3Nx7Ct8Y5wD6rbuYti7mP4Gd4",
-      "https://drive.google.com/uc?export=view&id=1tH3HOU7ZnO5Bw8ootoj7TV6Qo13XasmC",
-      "https://drive.google.com/uc?export=view&id=1kvl2wOQAmL4U5xP773uFsw3dSf8k62aL",
-      "https://drive.google.com/uc?export=view&id=1IZ2e7A4dIFx5IYc3fJQ7q3zWehatihOq",
-      "https://drive.google.com/uc?export=view&id=1Sm-91OOosri0-bysRFFA2iWklt9ePt9S",
+      `${baseURL}Concept/Characters/charCarousel_1.jpg`,
+      `${baseURL}Concept/Characters/charCarousel_2.jpg`,
+      `${baseURL}Concept/Characters/charCarousel_3.jpg`,
+      `${baseURL}Concept/Characters/charCarousel_4.jpg`,
+      `${baseURL}Concept/Characters/charCarousel_5.jpg`,
+      `${baseURL}Concept/Characters/charCarousel_6.jpg`,
     ],
   }
 }
@@ -69,7 +73,7 @@ export const ConceptContent = {
 export const AchievementContent = {
   title:'Achievement',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  storySrc: "https://drive.google.com/uc?export=view&id=1z0_aT6AfwiaxzBjfq7QjLwjbuJhLs7D4",
+  storySrc: `${baseURL}Achievement/bgSrc.jpg`,
 }
 
 export const TheTeamContent = {

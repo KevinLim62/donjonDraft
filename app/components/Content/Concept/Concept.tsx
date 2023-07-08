@@ -8,8 +8,7 @@ type ConceptProps = {
   title: string;
   bgSrc: string;
   Creatures_head: string;
-  Creatures_cont: string;
-  Creatures_contSrc: {imgSrc:string}[];
+  Creatures_contSrc: {imgSrc:string; content:string;}[];
   Char_head: string;
   Char_cont: string;
   Char_contSrc: string;
@@ -20,7 +19,6 @@ const Concept:React.FC<ConceptProps> = ({
   title,
   bgSrc,
   Creatures_head,
-  Creatures_cont,
   Creatures_contSrc,
   Char_head,
   Char_cont,
@@ -39,7 +37,6 @@ const Concept:React.FC<ConceptProps> = ({
         <div className="content-box bg-gray-700">
             <Creatures
               header={Creatures_head}
-              content={Creatures_cont}
               contentSrc={Creatures_contSrc}
             />
         </div>
