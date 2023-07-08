@@ -13,7 +13,7 @@ const Story:React.FC<StoryProps> = ({
   storySrc,
 }) => {
   return (
-    <section id='3' className="bg-slate-800 w-full relative container-box h-full sm:h-[50vh] md:h-[55vh] lg:h-[80vh] xl:h-[100vh]">
+    <section id='3' className="bg-slate-800 w-full relative container-box h-full sm:h-[50vh] md:h-[65vh] lg:h-[100vh]">
       <div className="relative left-0 right-0 pt-20">
         <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
             {title}
