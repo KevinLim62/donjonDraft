@@ -26,22 +26,23 @@ const handleNext = () => {
 
   return (
     <>
-        <div className={`flex justify-items-start align-middle transition-transform ease-out duration-500`} style={{ transform: `translateX(-${curr * 100}%)` }}>
-            {slidesSrc.map((slide,index) => (
-                    <Image 
-                    alt="slides"
-                    key={index}
-                    src={slide}
-                    width={500}
-                    height={500}
-                    quality={60}
-                    className="w-[100vw] h-[45vh] sm:h-[55vh]"
-                    />
-                ))}
-        </div> 
-        <div className="absolute inset-0 items-center flex justify-between px-[12%] sm:px-0 sm:-mx-5 bottom-[8%]">
-            <BiSolidLeftArrow onClick={handlePrev} size={50} color="white" className="cursor-pointer transition-all hover:scale-110"/>
-            <BiSolidRightArrow onClick={handleNext} size={50} color="white" className="cursor-pointer transition-all hover:scale-110"/>
+        <div className="w-full relative">
+            <Image 
+                alt="carousel"
+                src={slidesSrc[curr]}
+                sizes="100vw"
+                width={100}
+                height={100}
+                quality={50}
+                style={{
+                width:'100%',
+                height:'auto',
+                }}
+            />
+            <div className="absolute inset-0 items-center flex justify-between md:px-[15%] xl:px-[5%]">
+                <BiSolidLeftArrow onClick={handlePrev} size={50}  className="cursor-pointer text-slate-500 transition-all hover:scale-120 hover:text-slate-200"/>
+                <BiSolidRightArrow onClick={handleNext} size={50} className="cursor-pointer text-slate-500 transition-all hover:scale-120 hover:text-slate-200"/>
+            </div>
         </div>
 
         <div className="flex items-center justify-center gap-5 pt-2">

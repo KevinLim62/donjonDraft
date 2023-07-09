@@ -15,7 +15,7 @@ const Creatures:React.FC<CreaturesProps> = ({
 }) => {
   return (
     <>
-        <div className="font-semibold text-yellow-500 text-center pt-5 sm:pt-10 space-y-2">
+        <div className="font-semibold text-yellow-500 text-center py-5 sm:py-14 space-y-2">
             <div className="responsive-title">
               {header}
             </div>
@@ -27,13 +27,17 @@ const Creatures:React.FC<CreaturesProps> = ({
             {contentSrc.map((item,index) => (
               <div className="relative" key={index}>
                 <Image 
-                    alt="content"
-                    src={item.imgSrc}
-                    height={200}
-                    width={200}
-                    quality={70}
-                    className="w-full"
-                  />
+                  alt="creaturesSrc"
+                  src={item.imgSrc}
+                  sizes="100vw"
+                  width={100}
+                  height={100}
+                  quality={50}
+                  style={{
+                    width:'100%',
+                    height:'auto',
+                  }}
+                />
                 <div className="py-5 space-y-2">
                   {item.content}
                 </div>

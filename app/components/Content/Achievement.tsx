@@ -15,34 +15,36 @@ const Achievement:React.FC<AchievementProps> = ({
 }) => {
   return (
     <section id='8' className="bg-slate-800 w-full relative container-box">
-    <div className="relative left-0 right-0 pt-20">
-     <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
-        {title}
-     </div>
-    </div>
-     <div className="bg-gray-700">
-      <div className="flex flex-col">
-       <div className="flex flex-row justify-between space-y-1 h-[30vh] md:h-[40vh] lg:h-[60vh] sm:p-3 lg:p-0">
-          <div className="w-full relative overflow-clip px-[30px] md:px-[100px]">
-            <Image 
-              alt="story"
-              src={contentSrc}
-              fill
-            />
-            <div className="absolute w-0 h-0 -right-1 bottom-0
-              border-l-[50px] md:border-l-[100px] min-[1000px]:border-l-[150px] border-l-transparent
-              border-b-[360px] md:border-b-[605px] min-[1000px]:border-b-[1000px] border-b-gray-700">
+      <div className="pt-12 sm:pt-16 lg:pt-20 xl:pt-[120px]">
+          <div className="font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
+            {title}
+          </div>
+          <div className="content-box bg-gray-700 overflow-hidden h-full mb-5 pr-5 lg:pr-20">
+            <div className="flex flex-row w-full items-center justify-center space-x-2">
+                <div className="w-2/3 h-full relative">
+                  <Image 
+                    alt="Achievement"
+                    src={contentSrc}
+                    sizes="100vw"
+                    width={100}
+                    height={100}
+                    quality={50}
+                    style={{
+                      width:'100%',
+                      height:'auto',
+                    }}
+                  />
+                  <div className="absolute w-0 h-0 -right-1 bottom-0
+                    border-l-[50px] md:border-l-[100px] min-[1000px]:border-l-[150px] border-l-transparent
+                    border-b-[360px] md:border-b-[605px] min-[1000px]:border-b-[1000px] border-b-gray-700">
+                  </div>
+                </div>
+                <div className="w-1/3 h-full overflow-y-auto font-medium text-yellow-500 responsive-text text-center">
+                    {content}
+                </div>
             </div>
           </div>
-
-          <div className="flex flex-col w-full font-medium justify-center text-yellow-500 responsive-text text-center m-3 pr-0 sm:pr-5 lg:pr-10 space-y-3">
-              <div>
-                {content}
-              </div>
-          </div>
-       </div>
       </div>
-     </div>
   </section>
   )
 }

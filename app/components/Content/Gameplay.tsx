@@ -15,24 +15,21 @@ const Gameplay:React.FC<GameplayProps> = ({
 }) => {
 
   return (
-  <section id='4' className="bg-slate-800 w-full relative container-box">
-    <div className="relative left-0 right-0 pt-20">
-     <div className="font-semibold text-yellow-500 responsive-title text-center pb-2">
-        {title}
-     </div>
-    </div>
-    <div className="flex flex-col justify-center relative content-box">
-        <div className="w-full sm:w-[85%] lg:w-[53%] mx-auto overflow-hidden">
-          <Carousel slidesSrc={slidesSrc}/>
-        </div>
-    </div>
-      <div className="w-full px-2 sm:px-[20%] pt-10 space-y-3">
-          <div className="font-medium text-yellow-500 responsive-text text-center">
-          {content}
+    <section id='4' className="bg-slate-800 relative w-full container-box">
+    <div className="pt-12 sm:pt-16 lg:pt-20 xl:pt-[120px]">
+      <div className="font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
+          {title}
+      </div>
+      <div className="flex flex-col justify-center relative space-y-5">
+          <div className="w-full sm:w-[85%] md:w-[75%] lg:w-[60%] xl:w-[50%] mx-auto">
+            <Carousel slidesSrc={slidesSrc}/>
+          </div>
+          <div className="font-medium text-yellow-500 responsive-text text-center mx-10 md:mx-16 xl:mx-28">
+            {content}
           </div>
       </div>
-  </section>
-  
+    </div>
+  </section>  
   )
 }
 

@@ -12,7 +12,7 @@ import { IntroContent, storyContent, GameplayContent, ConceptContent, Achievemen
 
 export default function Home() {
   return (
-      <div className='min-w-[390px]'>
+      <div className='min-w-[375px]'>
           <Hero
             bgSrc={HeroContent.bgSrc}
             LogoSrc={HeroContent.logoSrc}
@@ -36,12 +36,14 @@ export default function Home() {
             title={ConceptContent.title}
             bgSrc={ConceptContent.bgSrc}
             Creatures_head={ConceptContent.Creatures.header} 
-            Creatures_cont={ConceptContent.Creatures.content}
+            Creatures_desc={ConceptContent.Creatures.desc}
             Creatures_contSrc={ConceptContent.Creatures.contentSrc}
             Char_head={ConceptContent.Characters.header}
-            Char_cont={ConceptContent.Characters.content}
+            Char_desc={ConceptContent.Characters.desc}
+            Char_cont={ConceptContent.Characters.cont}
             Char_contSrc={ConceptContent.Characters.contentSrc}
             Char_slidesSrc={ConceptContent.Characters.carousel}
+            Char_slidecontent={ConceptContent.Characters.carouselCont}
           />
           {/* <Development 
             title='Development'

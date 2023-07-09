@@ -3,8 +3,11 @@ import Footer from './components/Footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import localFont from 'next/font/local';
 
 const inter = Inter({ subsets: ['latin'] })
+// export const Caprasimo = localFont({src: '/FontType/Caprasimo/Caprasimo-Regular.ttf'});
+// export const CambriaMath = localFont({src: '/FontType/CambriaMath/CambriaMath.ttf'});
 
 export const metadata = {
   title: 'Donjon Fauna',

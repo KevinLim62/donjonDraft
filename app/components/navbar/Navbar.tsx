@@ -50,13 +50,14 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="fixed w-full bg-slate-500 py-3 opacity-90 z-50">
+    <div className="fixed w-full bg-slate-500 py-1 sm:py-3 opacity-90 z-50">
         <div className="flex flex-row gap-2 sm:gap-5 xl:gap-10 justify-between min-[630px]:justify-start items-center">
-            <div className="cursor-pointer w-[100px] h-[50px] lg:w-[120px] lg:h-[60px] relative" onClick={() => router.push(baseURL)}>
+            <div className="min-[375px]:w-[80px] min-[375px]:h-[40px] lg:w-[120px] lg:h-[60px] relative">
                 <Image 
                 alt="logo"
                 src="https://drive.google.com/uc?export=view&id=1h-75OGT2cQaFNOyJrU8jK_SEvwfiUi4V"
                 fill
+                priority
                 />
             </div>
             {MenuData.map((item,index) => (
