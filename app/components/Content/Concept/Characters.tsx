@@ -35,7 +35,7 @@ const Characters:React.FC<CharactersProps> = ({
                 src={contentSrc}
                 height={200}
                 width={200}
-                quality={100}
+                quality={70}
                 className="w-full"
               />
           </div>

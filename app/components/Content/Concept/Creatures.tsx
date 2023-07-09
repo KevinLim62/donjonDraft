@@ -31,7 +31,7 @@ const Creatures:React.FC<CreaturesProps> = ({
                     src={item.imgSrc}
                     height={200}
                     width={200}
-                    quality={100}
+                    quality={70}
                     className="w-full"
                   />
                 <div className="py-5 space-y-2">

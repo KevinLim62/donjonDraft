@@ -34,7 +34,7 @@ const handleNext = () => {
                     src={slide}
                     width={500}
                     height={500}
-                    quality={70}
+                    quality={60}
                     className="w-[100vw] h-[45vh] sm:h-[55vh]"
                     />
                 ))}

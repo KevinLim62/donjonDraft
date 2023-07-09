@@ -32,6 +32,7 @@ const Story:React.FC<StoryProps> = ({
                   alt="story"
                   src={storySrc}
                   fill
+                  quality={65}
                   className="rounded-sm"
                 />
               </div>
@@ -42,6 +43,7 @@ const Story:React.FC<StoryProps> = ({
           alt="creatures"
           src="https://drive.google.com/uc?export=view&id=19tBCxw9G2Ec1q2CBW89ICFPQdoTlFl2T"
           fill
+          quality={65}
         />
         </div>
         <div className="absolute w-[75px] h-[70px] sm:w-[95px] sm:h-[90px] lg:w-[185px] lg:h-[180px] xl:w-[200px] xl:h-[200px] 2xl:w-[220px] 2xl:h-[230px] right-[0%] bottom-[0%]">
@@ -49,6 +51,7 @@ const Story:React.FC<StoryProps> = ({
             alt="creatures"
             src="https://drive.google.com/uc?export=view&id=1VOY4rSeF2TNun_Wp7CI3zazGXhYZW3NJ"
             fill
+            quality={65}
           />
         </div>
        </div>

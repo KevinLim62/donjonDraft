@@ -23,6 +23,7 @@ const Member:React.FC<MemberProps> = ({
             <Image
             alt="icon"
             src={iconSrc}
+            quality={60}
             fill
             />
         </div>

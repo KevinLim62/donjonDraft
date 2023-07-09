@@ -40,11 +40,12 @@ const Intro:React.FC<IntroProps> = ({
               </div>
           </div>
         </div>
-        <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[120px] lg:h-[130px] xl:w-[160px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] left-[10%] top-[10%] z-30">
+        <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[120px] lg:h-[130px] xl:w-[160px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] left-[10%] top-[10%] lg:top-[0%] z-30">
         <Image
           alt="creatures"
           src="https://drive.google.com/uc?export=view&id=1vu8f1V4ByR4OIBXdokJyc_thTjgXInRd"
           fill
+          quality={65}
         />
       </div>
       <div className="absolute w-[60px] h-[70px] sm:w-[80px] sm:h-[90px] lg:w-[120px] lg:h-[130px] xl:w-[160px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] right-[10%] bottom-[0%] z-30">
@@ -52,6 +53,7 @@ const Intro:React.FC<IntroProps> = ({
           alt="creatures"
           src="https://drive.google.com/uc?export=view&id=1So4BpJNNnavUdz_ry69aiTcfR-2tM3eh"
           fill
+          quality={65}
         />
       </div>
       </div>
