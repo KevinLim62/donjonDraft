@@ -33,7 +33,7 @@ const handleNext = () => {
                 sizes="100vw"
                 width={100}
                 height={100}
-                quality={50}
+                quality={40}
                 priority
                 style={{
                 width:'100%',
