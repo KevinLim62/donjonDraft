@@ -18,7 +18,7 @@ const Member:React.FC<MemberProps> = ({
 }) => {
   return (
     <>
-    <div className="flex flex-col items-center space-y-2 responsive-text">
+    <div className="flex flex-col items-center space-y-2 responsive-text font-contentType">
         <div className="w-[40px] h-[40px] sm:w-[60px] sm:h-[60px] lg:w-[100px] lg:h-[100px] xl:w-[120px] xl:h-[120px] rounded-full bg-transparent relative overflow-hidden">
             <Image 
                 alt="member"

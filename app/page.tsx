@@ -15,7 +15,6 @@ export default function Home() {
       <div className='min-w-[375px]'>
           <Hero
             bgSrc={HeroContent.bgSrc}
-            LogoSrc={HeroContent.logoSrc}
           />
           <Intro
             title={IntroContent.title}

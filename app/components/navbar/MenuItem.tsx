@@ -32,13 +32,13 @@ const MenuItem:React.FC<MenuItemProps> = ({
   return (
     <div className={`
         text-yellow-500 
-          font-normal 
+          font-normal
+          font-titleType 
           border-yellow-500 
           hover:border-b-2 
           hover:font-medium
           cursor-pointer 
-          ${selected && "border-b-2"}
-          ${selected && "font-bold"}
+          ${selected && "border-b-[2px] sm:border-b-[3px] xl:border-b-[4px]"}
           `}
           onClick={handleSelected}>
         <Link href={`#${id}`}>

@@ -21,15 +21,15 @@ const Characters:React.FC<CharactersProps> = ({
 }) => {
   return (
     <>
-      <div className="font-semibold text-yellow-500 text-center py-5 sm:py-14 space-y-2">
-        <div className="responsive-title">
+      <div className="text-yellow-500 text-center py-5 sm:py-14 space-y-2">
+        <div className="font-titleType font-semibold responsive-title">
               {header}
           </div>
-          <div className="responsive-text px-10">
+          <div className="font-contentType responsive-text px-10">
               {description}
           </div>
         </div>
-      <div className="flex flex-col justify-center font-medium text-yellow-500 responsive-text text-center mx-2 sm:mx-10 my-5 pb-10 sm:pb-24">
+      <div className="flex flex-col justify-center font-contentType text-yellow-500 responsive-text text-center mx-2 sm:mx-10 my-5 pb-10 sm:pb-24">
           <div className="space-y-2 py-5">
               <Image 
                   alt="characterSrc"

@@ -2,12 +2,16 @@ import { FooterContent } from './actions/getData'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import './globals.css'
-import { Inter } from 'next/font/google'
-import localFont from 'next/font/local';
+import localFont from '@next/font/local';
 
-const inter = Inter({ subsets: ['latin'] })
-// export const Caprasimo = localFont({src: '/FontType/Caprasimo/Caprasimo-Regular.ttf'});
-// export const CambriaMath = localFont({src: '/FontType/CambriaMath/CambriaMath.ttf'});
+const Caprasimo = localFont({
+  src: '../public/FontType/Cambria-Regular.woff2',
+  variable: "--title-font",
+});
+const CambriaMath = localFont({
+  src: '../public/FontType/Caprasimo-Regular.woff2',
+  variable: "--content-font",
+});
 
 export const metadata = {
   title: 'Donjon Fauna',
@@ -20,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={`${Caprasimo.variable} ${CambriaMath.variable}`}>
+      <body>
         <Navbar/>
         {children}
         <Footer 

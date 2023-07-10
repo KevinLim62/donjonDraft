@@ -27,7 +27,7 @@ const SocialMedia:React.FC<SocialMediaProps> = ({
                 }}
             />
         </div>
-        <div className="responsive-text text-yellow-500">
+        <div className="responsive-text font-contentType text-yellow-500">
             {content}
         </div>
     </div>

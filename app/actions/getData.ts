@@ -1,8 +1,7 @@
 export const baseURL = '/donjonDraft/';
 
 export const HeroContent = {
-  logoSrc: `${baseURL}Hero/hero_logo.png`,
-  bgSrc: `${baseURL}Hero/hero_bg.jpg`,
+  bgSrc: `${baseURL}Hero/hero_bg.png`,
 }
 
 export const IntroContent = {

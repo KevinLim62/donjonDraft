@@ -22,11 +22,11 @@ const Team:React.FC<TeamProps> = ({
   return (
     <section id='9' className="bg-slate-100 relative container-box w-full h-auto">
       <div className="pt-12 sm:pt-16 lg:pt-20 xl:pt-[120px]">
-        <div className="font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
+        <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
           {title}
         </div>
         <div className="relative pt-10">
-          <div className="font-semibold text-yellow-500 responsive-title text-center pb-5">
+          <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-5">
               {core.title}
           </div>
         </div> 
@@ -44,7 +44,7 @@ const Team:React.FC<TeamProps> = ({
         </div>
 
         <div className="relative pt-10">
-          <div className="font-semibold text-yellow-500 responsive-title text-center pb-5">
+          <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-5">
               {advisor.title}
           </div>
         </div>

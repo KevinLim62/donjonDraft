@@ -4,12 +4,9 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { AiOutlineMenuUnfold , AiOutlineMenuFold } from "react-icons/ai";
 import lodash from "lodash";
 import MenuItem from "./MenuItem";
-import { useCallback } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { relative } from "path";
-import { baseURL } from "@/app/actions/getData";
+
 
 const MenuData = [
     {
@@ -42,8 +39,8 @@ const Navbar = () => {
 
   const router = useRouter();
   const searchParams = useSearchParams().get('section');
-  const [menuOpen, setMenuOpen] = useState(false);
 
+  const [menuOpen, setMenuOpen] = useState(false);
   const handleMenu = () => {
     setMenuOpen(!menuOpen);
   }
@@ -70,7 +67,11 @@ const Navbar = () => {
             </div>
             ))} 
             <div className={`bg-slate-500 min-[630px]:hidden cursor-pointer`} onClick={handleMenu}>
-                <AiOutlineMenuUnfold size={50}/>
+                {menuOpen? (
+                    <AiOutlineMenuUnfold size={50}/>
+                ) : (
+                    <AiOutlineMenuFold size={50}/>
+                )}
             </div> 
         </div>
         {menuOpen && (

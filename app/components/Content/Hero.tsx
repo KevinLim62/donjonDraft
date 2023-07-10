@@ -4,12 +4,10 @@ import Image from "next/image";
 
 interface HeroProps {
   bgSrc : string;
-  LogoSrc : string;
 }
 
 const Hero:React.FC<HeroProps> = ({
   bgSrc,
-  LogoSrc,
 }) => {
   return (
   <section id='1' className="w-full relative">

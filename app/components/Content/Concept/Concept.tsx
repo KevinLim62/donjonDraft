@@ -36,7 +36,7 @@ const Concept:React.FC<ConceptProps> = ({
 
     <section id='5' className={`bg-scroll bg-opacity-50 w-full h-full relative container-box`} style={{ backgroundImage: `url(${bgSrc})` }}>
       <div className="pt-12 sm:pt-16 lg:pt-20 xl:pt-[120px]">
-        <div className="font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
+        <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
             {title}
         </div>
       </div>
