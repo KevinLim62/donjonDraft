@@ -19,9 +19,9 @@ const Achievement:React.FC<AchievementProps> = ({
           <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
             {title}
           </div>
-          <div className="content-box bg-gray-700 overflow-hidden h-full mb-5 pr-5 lg:pr-20">
+          <div className="content-box bg-gray-700 h-full mb-5 pr-5 lg:pr-20">
             <div className="flex flex-row w-full items-center justify-center space-x-2">
-                <div className="w-2/3 h-full relative">
+                <div className="w-2/3 h-full relative overflow-hidden">
                   <Image 
                     alt="Achievement"
                     src={contentSrc}
@@ -39,7 +39,7 @@ const Achievement:React.FC<AchievementProps> = ({
                     border-b-[360px] md:border-b-[605px] min-[1000px]:border-b-[1000px] border-b-gray-700">
                   </div>
                 </div>
-                <div className="w-1/3 h-full overflow-y-auto font-contentType text-yellow-500 responsive-text text-center">
+                <div className="w-1/3 min-[375px]:h-[100px] min-[500px]:h-[150px] sm:h-[200px] md:h-full overflow-y-auto font-contentType text-yellow-500 responsive-text text-justify">
                     {content}
                 </div>
             </div>

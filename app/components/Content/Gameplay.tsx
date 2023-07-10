@@ -24,7 +24,7 @@ const Gameplay:React.FC<GameplayProps> = ({
           <div className="w-full sm:w-[85%] md:w-[75%] lg:w-[60%] xl:w-[50%] mx-auto">
             <Carousel slidesSrc={slidesSrc}/>
           </div>
-          <div className="font-contentType font-medium text-yellow-500 responsive-text text-center mx-10 md:mx-16 xl:mx-28">
+          <div className="font-contentType font-medium text-yellow-500 responsive-text text-justify mx-10 md:mx-16 xl:mx-28">
             {content}
           </div>
       </div>

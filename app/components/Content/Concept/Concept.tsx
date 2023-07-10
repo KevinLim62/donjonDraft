@@ -49,13 +49,13 @@ const Concept:React.FC<ConceptProps> = ({
             />
         </div>
         <div className="content-box bg-gray-700 bg-opacity-70">
-        <Characters
-              header={Char_head}
-              description={Char_desc}
-              content={Char_cont}
-              contentSrc={Char_contSrc}
-              slidesSrc={Char_slidesSrc}
-              slideContent={Char_slidecontent}
+            <Characters
+                  header={Char_head}
+                  description={Char_desc}
+                  content={Char_cont}
+                  contentSrc={Char_contSrc}
+                  slidesSrc={Char_slidesSrc}
+                  slideContent={Char_slidecontent}
             />
         </div>
       </div>

@@ -21,28 +21,28 @@ const Characters:React.FC<CharactersProps> = ({
 }) => {
   return (
     <>
-      <div className="text-yellow-500 text-center py-5 sm:py-14 space-y-2">
-        <div className="font-titleType font-semibold responsive-title">
+      <div className="text-yellow-500 py-5 sm:py-14 space-y-2">
+        <div className="font-titleType text-center font-semibold responsive-title">
               {header}
           </div>
-          <div className="font-contentType responsive-text px-10">
+          <div className="font-contentType text-justify responsive-text px-10">
               {description}
           </div>
         </div>
-      <div className="flex flex-col justify-center font-contentType text-yellow-500 responsive-text text-center mx-2 sm:mx-10 my-5 pb-10 sm:pb-24">
+      <div className="flex flex-col justify-center font-contentType text-yellow-500 responsive-text text-justify mx-2 sm:mx-10 my-1 pb-10 sm:pb-24">
+            <Image 
+                alt="characterSrc"
+                src={contentSrc}
+                sizes="100vw"
+                width={100}
+                height={100}
+                quality={50}
+                style={{
+                  width:'100%',
+                  height:'auto',
+                }}
+              />
           <div className="space-y-2 py-5">
-              <Image 
-                  alt="characterSrc"
-                  src={contentSrc}
-                  sizes="100vw"
-                  width={100}
-                  height={100}
-                  quality={50}
-                  style={{
-                    width:'100%',
-                    height:'auto',
-                  }}
-                />
               <div>
                   {content}
               </div>
