@@ -29,7 +29,7 @@ export const MenuContent = [
 ]
 
 export const HeroContent = {
-  bgSrc: `${baseURL}Hero/Hero_bg.webp`,
+  bgSrc: `${baseURL}Hero/heroSrc.webp`,
 }
 
 export const IntroContent = {
