@@ -4,13 +4,13 @@ import Navbar from './components/navbar/Navbar'
 import './globals.css'
 import localFont from '@next/font/local';
 
-const Caprasimo = localFont({
-  src: '../public/FontType/Cambria-Regular.woff2',
-  variable: "--title-font",
-});
 const CambriaMath = localFont({
-  src: '../public/FontType/Caprasimo-Regular.woff2',
+  src: '../public/FontType/Cambria-Regular.woff2',
   variable: "--content-font",
+});
+const Caprasimo = localFont({
+  src: '../public/FontType/Caprasimo-Regular.woff2',
+  variable: "--title-font",
 });
 
 export const metadata = {
