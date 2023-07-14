@@ -28,7 +28,7 @@ const Achievement:React.FC<AchievementProps> = ({
                     sizes="100vw"
                     width={100}
                     height={100}
-                    quality={50}
+                    quality={60}
                     style={{
                       width:'100%',
                       height:'auto',
