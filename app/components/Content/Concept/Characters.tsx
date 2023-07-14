@@ -45,7 +45,7 @@ const Characters:React.FC<CharactersProps> = ({
               <div className="space-y-2 py-5">
                   {content}
               </div>
-                <div className="w-[70vw] h-[100vh] pb-20">
+                <div className="w-[100vw] h-[50vh] min-[450px]:w-[90vw] sm:w-[80vw] sm:h-[70vh] lg:w-[70vw] xl:w-[60vw] lg:h-[70vh] pb-20">
                   <Carousel slidesSrc={slidesSrc}/>
                 </div>
               <div className="space-y-2 py-5">
