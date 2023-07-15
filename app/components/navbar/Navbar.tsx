@@ -21,7 +21,7 @@ const Navbar = () => {
 
     <div className="fixed w-full bg-slate-500 py-1 sm:py-3 opacity-90 z-50">
         <div className="flex flex-row gap-2 sm:gap-5 xl:gap-10 justify-between min-[630px]:justify-start items-center">
-            <div className="min-[375px]:w-[80px] min-[375px]:h-[40px] lg:w-[120px] lg:h-[60px] relative">
+            <div className="w-[80px] min-[375px]:h-[40px] lg:w-[120px] lg:h-[60px] relative">
                 <Image 
                 alt="logo"
                 src="https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999898/Donjon_Assets/iudqv2mayazqnl5zug5k.png"

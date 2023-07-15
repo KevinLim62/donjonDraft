@@ -45,10 +45,10 @@ const Characters:React.FC<CharactersProps> = ({
               <div className="space-y-2 py-5">
                   {content}
               </div>
-                <div className="w-[100vw] h-[50vh] min-[450px]:w-[80vw] sm:w-[75vw] sm:h-[70vh] lg:w-[65vw] lg:h-[70vh] xl:w-[60vw] pb-20">
+                <div className="w-[85vw] h-[40vh] sm:w-[75vw] sm:h-[50vh] lg:w-[70vw] lg:h-[65vh] xl:w-[60vw] xl:h-[75vh]  pb-14">
                   <Carousel slidesSrc={slidesSrc}/>
                 </div>
-              <div className="space-y-2 py-5">
+              <div className="space-y-2 py-2">
                 {slideContent}
               </div>
       </div>

@@ -16,6 +16,10 @@
         @apply text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl;
     }
 
+    .responsive-menuTitle  {
+        @apply min-[390px]:text-sm md:text-base lg:text-lg xl:text-xl;
+    }
+
     .responsive-text {
         @apply text-[8px] leading-[10px] sm:text-xs lg:text-sm xl:text-base;
     }

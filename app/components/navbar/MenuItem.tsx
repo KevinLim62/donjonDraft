@@ -30,7 +30,8 @@ const MenuItem:React.FC<MenuItemProps> = ({
   
   return (
     <div className={`
-        text-yellow-500 
+        text-yellow-500
+          responsive-menuTitle 
           font-normal
           font-titleType 
           border-yellow-500 
