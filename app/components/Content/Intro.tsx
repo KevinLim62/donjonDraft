@@ -21,7 +21,7 @@ const Intro:React.FC<IntroProps> = ({
           sizes="100vw"
           width={100}
           height={100}
-          quality={60}
+          quality={50}
           priority
           style={{
             width:'100%',

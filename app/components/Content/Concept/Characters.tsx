@@ -36,7 +36,7 @@ const Characters:React.FC<CharactersProps> = ({
                 sizes="100vw"
                 width={100}
                 height={100}
-                quality={60}
+                quality={50}
                 style={{
                   width:'100%',
                   height:'auto',

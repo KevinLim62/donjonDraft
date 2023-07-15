@@ -30,7 +30,7 @@ export const MenuContent = [
 ]
 
 export const HeroContent = {
-  bgSrc: `${baseURL}Hero/heroSrc.webp`,
+  bgSrc: `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999893/Donjon_Assets/jbg36bzdc86pihl5llig.png`,
 }
 
 export const IntroContent = {
@@ -40,7 +40,7 @@ export const IntroContent = {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   ],
-  bgSrc: `${baseURL}Intro/introSrc.webp`,
+  bgSrc: `https://res.cloudinary.com/df9aa9rqs/image/upload/v1689000388/Donjon_Assets/dkj6iwriytsbcymwhcvg.webp`,
 }
 
 export const storyContent = {
@@ -49,44 +49,44 @@ export const storyContent = {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   ],
-  storySrc: `${baseURL}Story/storySrc.webp`,
+  storySrc: `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999896/Donjon_Assets/nc6mvloiaymaur9ka7qb.jpg`,
 }
 
 export const GameplayContent = {
   title: 'Gameplay',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   carousel: [
-    `${baseURL}Gameplay/carousel_1.gif`,
-    `${baseURL}Gameplay/carousel_2.gif`,
-    `${baseURL}Gameplay/carousel_3.webp`,
+    `https://res.cloudinary.com/df9aa9rqs/image/upload/v1689431534/ezgif-1-50bf0f115b_1_ehdewe.gif`,
+    `https://res.cloudinary.com/df9aa9rqs/image/upload/v1689431535/ezgif-1-fc12df0398_1_dvyrdj.gif`,
+    `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999900/Donjon_Assets/zggoa1xwowyqanu1cybn.png`,
   ]
 }
 
 export const ConceptContent = {
   title: 'Concept',
-  bgSrc: `${baseURL}Concept/bgSrc.webp`,
+  bgSrc: `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999898/Donjon_Assets/qsdhsnimwzsmhzstfawy.jpg`,
   Creatures: {
     header: 'Creatures',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     contentSrc: [
       {
-        imgSrc:`${baseURL}Concept/Creatures/creatures_1.webp`,
+        imgSrc:`https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999896/Donjon_Assets/qtulgcwdav0sngkyk1uc.jpg`,
         content:'',
       },
       {
-        imgSrc:`${baseURL}Concept/Creatures/creatures_2.webp`,
+        imgSrc:`https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999896/Donjon_Assets/kkgyjci6jhrraadrci3l.png`,
         content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       },
       {
-        imgSrc:`${baseURL}Concept/Creatures/creatures_3.webp`,
+        imgSrc:`https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999898/Donjon_Assets/dv8mmxiiboax13w58a0y.jpg`,
         content:'',
       },
       {
-        imgSrc:`${baseURL}Concept/Creatures/creatures_4.webp`,
+        imgSrc:`https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999898/Donjon_Assets/hcilxsq8wh4jkz8md5mh.jpg`,
         content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       },
       {
-        imgSrc:`${baseURL}Concept/Creatures/creatures_5.webp`,
+        imgSrc:`https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999899/Donjon_Assets/c7vdlvipxsok6ifjje7k.jpg`,
         content:'',
       },
     ]
@@ -95,14 +95,14 @@ export const ConceptContent = {
     header: 'Characters',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     cont: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    contentSrc: `${baseURL}Concept/Characters/char_all.webp`,
+    contentSrc: `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999897/Donjon_Assets/m9biqqnggzegky2yfio1.jpg`,
     carousel: [
-      `${baseURL}Concept/Characters/charCarousel_1.webp`,
-      `${baseURL}Concept/Characters/charCarousel_2.webp`,
-      `${baseURL}Concept/Characters/charCarousel_3.webp`,
-      `${baseURL}Concept/Characters/charCarousel_4.webp`,
-      `${baseURL}Concept/Characters/charCarousel_5.webp`,
-      `${baseURL}Concept/Characters/charCarousel_6.webp`,
+      `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999893/Donjon_Assets/mkv0loo3mjpxtrhlhtxy.jpg`,
+      `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999893/Donjon_Assets/eyfhkhyyxuvgpz5uh30w.jpg`,
+      `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999900/Donjon_Assets/hno0vw4xtrf8tf1kitf5.jpg`,
+      `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999893/Donjon_Assets/cgcodosnyulohwozfcwt.jpg`,
+      `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999898/Donjon_Assets/vtfbywqds7oeah8odumo.jpg`,
+      `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999893/Donjon_Assets/gbbc9s0qf3r1izshdswd.jpg`,
     ],
     carouselCont:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   }
@@ -111,7 +111,7 @@ export const ConceptContent = {
 export const AchievementContent = {
   title:'Achievement',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  storySrc: `${baseURL}Achievement/bgSrc.webp`,
+  storySrc: `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999897/Donjon_Assets/t8trql5tv5wcz4yxexvb.jpg`,
 }
 
 export const TheTeamContent = {
