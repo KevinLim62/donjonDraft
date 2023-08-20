@@ -6,7 +6,7 @@ import lodash from "lodash";
 import MenuItem from "./MenuItem";
 import Image from "next/image";
 import { useState } from "react";
-import { MenuContent } from "@/app/actions/getData";
+import { MenuContent, baseURL } from "@/app/actions/getData";
 
 const Navbar = () => {
 
@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className="w-[80px] min-[375px]:h-[40px] lg:w-[120px] lg:h-[60px] relative">
                 <Image 
                 alt="logo"
-                src="https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999898/Donjon_Assets/iudqv2mayazqnl5zug5k.png"
+                src={`${baseURL}Logo/Donjon-logo.png`}
                 sizes="100vw"
                   width={100}
                   height={100}
@@ -41,6 +41,7 @@ const Navbar = () => {
                 <MenuItem
                 title={item.title}
                 id={item.id}
+                url={item.url}
                 selected={searchParams === lodash.toLower(item.title)}
                 />
             </div>
@@ -59,6 +60,7 @@ const Navbar = () => {
                     <MenuItem
                     title={item.title}
                     id={item.id}
+                    url={item.url}
                     selected={searchParams === lodash.toLower(item.title)}
                     key={index}
                     />

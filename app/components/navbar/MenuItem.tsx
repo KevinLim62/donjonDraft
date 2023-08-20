@@ -9,19 +9,20 @@ interface MenuItemProps {
     title: string;
     selected: boolean;
     id:string;
+    url:string;
 }
 
 const MenuItem:React.FC<MenuItemProps> = ({
     title,
     selected,
     id,
+    url,
 }) => {
 
   const router = useRouter();
   const searchParams = useSearchParams().get('section');
   
   const handleSelected = useCallback(() => {
-    console.log(searchParams)
     if(searchParams != title)
     {
         router.push(`?section=${lodash.toLower(title)}`);
@@ -41,7 +42,7 @@ const MenuItem:React.FC<MenuItemProps> = ({
           ${selected && "border-b-[2px] sm:border-b-[3px] xl:border-b-[4px]"}
           `}
           onClick={handleSelected}>
-        <Link href={`#${id}`}>
+        <Link href={url}>
           {title}
         </Link>
     </div>

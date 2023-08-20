@@ -1,4 +1,5 @@
 'use client';
+import { baseURL } from "@/app/actions/getData";
 import Image from "next/image";
 
 interface StoryProps {
@@ -46,8 +47,8 @@ const Story:React.FC<StoryProps> = ({
       </div>
         <div className="absolute w-[70px] h-[70px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] lg:w-[160px] lg:h-[160px] xl:w-[200px] xl:h-[200px] 2xl:w-[220px] 2xl:h-[230px] left-0 top-0 sm:top-[0px] lg:top-[25px] xl:top-[50px]">
         <Image
-          alt="creatures"
-          src="https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999900/Donjon_Assets/u91uuzp8kkbypliofsey.png"
+          alt="Sphyn"
+          src={`${baseURL}Story/Sphyn.png`}
           sizes="100vw"
           width={100}
           height={100}
@@ -60,8 +61,8 @@ const Story:React.FC<StoryProps> = ({
         </div>
         <div className="absolute w-[70px] h-[70px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] lg:w-[160px] lg:h-[160px] xl:w-[200px] xl:h-[200px] 2xl:w-[220px] 2xl:h-[230px] right-0 bottom-0 sm:bottom-[0px] lg:bottom-[25px] xl:bottom-[50px]">
           <Image
-            alt="creatures"
-            src="https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999893/Donjon_Assets/wgvhyrjcoxeluiocl26s.png"
+            alt="Beetlephant"
+            src={`${baseURL}Story/Beetlephant.png`}
             sizes="100vw"
             width={100}
             height={100}

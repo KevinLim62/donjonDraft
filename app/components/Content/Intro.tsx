@@ -1,5 +1,6 @@
 'use client';
 
+import { baseURL } from "@/app/actions/getData";
 import Image from "next/image";
 
 interface IntroProps {
@@ -46,8 +47,8 @@ const Intro:React.FC<IntroProps> = ({
         </div>
         <div className="absolute w-[45px] h-[50px] sm:w-[70px] sm:h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[130px] xl:w-[160px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] left-0 top-0 sm:-top-[25px] lg:-top-[50px] xl:-top-[100px]">
         <Image
-          alt="creatures"
-          src="https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999897/Donjon_Assets/r6iqjaflwrcxbppd53lg.png"
+          alt="carrot-duck"
+          src={`${baseURL}Intro/carrot-duck.png`}
           sizes="100vw"
           width={100}
           height={100}
@@ -60,8 +61,8 @@ const Intro:React.FC<IntroProps> = ({
       </div>
       <div className="absolute w-[45px] h-[50px] sm:w-[70px] sm:h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[130px] xl:w-[160px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] right-0 bottom-0 sm:-bottom-[25px] lg:-bottom-[50px] xl:-bottom-[100px]">
         <Image
-          alt="creatures"
-          src="https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999899/Donjon_Assets/grpcwjxgkhqiwis5ojix.png"
+          alt="jelly-crab"
+          src={`${baseURL}Logo/Jelly-Crab.png`}
           sizes="100vw"
           width={100}
           height={100}

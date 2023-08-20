@@ -6,26 +6,37 @@ export const MenuContent = [
   {
       title: "INTRO",
       id:'2',
+      url:'#2'
   },
   {
       title: "STORY",
       id:'3',
+      url:'#3'
   },
   {
       title: "GAMEPLAY",
       id:'4',
+      url:'#4'
   },
   {
       title: "CONCEPT",
       id:'5',
+      url:'#5'
+  },
+  {
+      title: "DEVELOPMENT",
+      id:'6',
+      url:'https://main--devlog-demo.netlify.app/'
   },
   {
       title: "ACHIEVEMENT",
       id:'8',
+      url:'#8'
   },
   {
       title: "THETEAM",
       id:'9',
+      url:'#9'
   },
 ]
 
@@ -64,7 +75,7 @@ export const GameplayContent = {
 
 export const ConceptContent = {
   title: 'Concept',
-  bgSrc: `https://res.cloudinary.com/df9aa9rqs/image/upload/v1688999898/Donjon_Assets/qsdhsnimwzsmhzstfawy.jpg`,
+  bgSrc: `${baseURL}Concept/bgSrc.webp`,
   Creatures: {
     header: 'Creatures',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
