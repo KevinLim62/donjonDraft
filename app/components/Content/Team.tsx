@@ -20,7 +20,7 @@ const Team:React.FC<TeamProps> = ({
   advisor,
 }) => {
   return (
-    <section id='9' className="bg-slate-100 relative container-box w-full h-auto">
+    <section id='team' className="bg-slate-100 relative container-box w-full h-auto">
       <div className="pt-12 sm:pt-16 lg:pt-20 xl:pt-[120px]">
         <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
           {title}

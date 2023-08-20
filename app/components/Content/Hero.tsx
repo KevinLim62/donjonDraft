@@ -10,7 +10,7 @@ const Hero:React.FC<HeroProps> = ({
   bgSrc,
 }) => {
   return (
-  <section id='1' className="w-full relative">
+  <section id='hero' className="w-full relative">
             <Image 
                 alt="heroBg"
                 src={bgSrc}

@@ -6,22 +6,22 @@ export const MenuContent = [
   {
       title: "INTRO",
       id:'2',
-      url:'#2'
+      url:'#intro'
   },
   {
       title: "STORY",
       id:'3',
-      url:'#3'
+      url:'#story'
   },
   {
       title: "GAMEPLAY",
       id:'4',
-      url:'#4'
+      url:'#gameplay'
   },
   {
       title: "CONCEPT",
       id:'5',
-      url:'#5'
+      url:'#concept'
   },
   {
       title: "DEVELOPMENT",
@@ -31,12 +31,12 @@ export const MenuContent = [
   {
       title: "ACHIEVEMENT",
       id:'8',
-      url:'#8'
+      url:'#achievement'
   },
   {
       title: "THETEAM",
       id:'9',
-      url:'#9'
+      url:'#team'
   },
 ]
 

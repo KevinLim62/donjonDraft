@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
         {menuOpen && (
             <div className="flex flex-col items-center bg-slate-500 gap-5 pt-5">
-                    {MenuContent.map((item,index) => (
+                {MenuContent.map((item,index) => (
                     <MenuItem
                     title={item.title}
                     id={item.id}
@@ -64,7 +64,7 @@ const Navbar = () => {
                     selected={searchParams === lodash.toLower(item.title)}
                     key={index}
                     />
-                    ))}
+                ))}
             </div>
         )}
     </div>

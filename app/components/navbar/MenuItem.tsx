@@ -41,7 +41,7 @@ const MenuItem:React.FC<MenuItemProps> = ({
           cursor-pointer 
           ${selected && "border-b-[2px] sm:border-b-[3px] xl:border-b-[4px]"}
           `}
-          onClick={handleSelected}>
+          >
         <Link href={url}>
           {title}
         </Link>

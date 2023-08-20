@@ -14,7 +14,7 @@ const Achievement:React.FC<AchievementProps> = ({
   contentSrc,
 }) => {
   return (
-    <section id='8' className="bg-slate-800 w-full relative container-box">
+    <section id='achievement' className="bg-slate-800 w-full relative container-box">
       <div className="pt-12 sm:pt-16 lg:pt-20 xl:pt-[120px]">
           <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
             {title}

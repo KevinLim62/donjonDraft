@@ -15,7 +15,7 @@ const Gameplay:React.FC<GameplayProps> = ({
 }) => {
 
   return (
-    <section id='4' className="bg-slate-800 relative w-full container-box">
+    <section id='gameplay' className="bg-slate-800 relative w-full container-box">
     <div className="pt-12 sm:pt-16 lg:pt-20 xl:pt-[120px]">
       <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
           {title}

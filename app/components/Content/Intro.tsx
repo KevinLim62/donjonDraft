@@ -15,7 +15,7 @@ const Intro:React.FC<IntroProps> = ({
     bgSrc,
 }) => {
   return (
-  <section id='2' className="relative">
+  <section id='intro' className="relative">
       <Image 
           alt="introBg"
           src={bgSrc}
@@ -62,7 +62,7 @@ const Intro:React.FC<IntroProps> = ({
       <div className="absolute w-[45px] h-[50px] sm:w-[70px] sm:h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[130px] xl:w-[160px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[230px] right-0 bottom-0 sm:-bottom-[25px] lg:-bottom-[50px] xl:-bottom-[100px]">
         <Image
           alt="jelly-crab"
-          src={`${baseURL}Logo/Jelly-Crab.png`}
+          src={`${baseURL}Intro/Jelly-Crab.png`}
           sizes="100vw"
           width={100}
           height={100}

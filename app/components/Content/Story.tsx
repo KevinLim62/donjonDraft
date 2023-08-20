@@ -14,7 +14,7 @@ const Story:React.FC<StoryProps> = ({
   storySrc,
 }) => {
   return (
-    <section id='3' className="bg-slate-800 relative container-box w-full h-auto overflow-hidden">
+    <section id='story' className="bg-slate-800 relative container-box w-full h-auto overflow-hidden">
       <div className="pt-12 sm:pt-16 lg:pt-20 xl:pt-[120px]">
         <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
           {title}
