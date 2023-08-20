@@ -33,7 +33,7 @@ const Intro:React.FC<IntroProps> = ({
      <div className="font-titleType font-semibold text-yellow-500 responsive-title text-center pb-0 sm:pb-5">
         {title}
      </div>
-        <div className="content-box bg-gray-700 overflow-y-auto min-[375px]:h-[120px] min-[450px]:h-[150px] sm:h-[200px] md:h-[250px] lg:h-full">
+        <div className="content-box bg-gray-700 overflow-y-auto min-[300px]:h-[100px] min-[390px]:h-[120px] sm:h-[25vh] md:h-[30vh] lg:h-[50vh] xl:h-[60vh] 2xl:h-[70vh]">
           <div className="flex flex-col items-center justify-center mx-10 md:mx-12 lg:mx-16 xl:mx-24 py-3">
               <div className="font-contentType text-yellow-500 responsive-text text-justify space-y-5">
                   {content.map((item,index)=> (

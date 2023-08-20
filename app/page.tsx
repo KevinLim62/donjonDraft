@@ -12,7 +12,7 @@ import { IntroContent, storyContent, GameplayContent, ConceptContent, Achievemen
 
 export default function Home() {
   return (
-      <div className='min-w-[375px]'>
+      <div className='min-w-[320px]'>
           <Hero
             bgSrc={HeroContent.bgSrc}
           />
