@@ -3,7 +3,7 @@ const nextConfig = {
     images: {
         domains: ['drive.google.com','res.cloudinary.com']
     },
-    // output: "export",
+    output: "export",
     reactStrictMode: true,
 }
 
